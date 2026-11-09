@@ -1,0 +1,334 @@
+:root {
+}
+.orang-100 {
+  color: #f54a00;
+}
+.orang-200 {
+  color: #ff530e;
+}
+.orang-300 {
+  color: #ff6900;
+}
+.bg-orang-100 {
+  background-color: #f54a00;
+}
+.bg-orang-200 {
+  background-color: #ff530e;
+}
+.bg-orang-300 {
+  background-color: #ff6900;
+}
+/* glopal colors */
+.Ingredient-bg {
+  background-color: #fff9eb;
+}
+/* ************ */
+
+.nav-tabs {
+  border-bottom: 1px solid #f8f2e4;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+  color: #6c757d;
+  background-color: transparent !important;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  color: #ff530e !important;
+  border-color: #ff530e !important;
+  border-bottom-width: 3px !important;
+  transition: all solid !important;
+}
+
+.nav-tabs .nav-link.active:hover,
+.nav-tabs .nav-link.active:active {
+  color: #f54a00 !important;
+  border-bottom: 1px solid #f54a00 !important;
+}
+
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+/* تنسيق التاب وهو نشط (Active) وثبات الخط تحته */
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  border: none;
+  color: #ff530e !important;
+  border-bottom: 1px solid #f54a00 !important;
+}
+/* ************ */
+
+body {
+  background-color: #fff9ec;
+}
+
+.container {
+  width: 80% !important;
+  padding: 0px 30px !important;
+}
+
+nav {
+  border-bottom: 3px solid #f8f2e4;
+}
+
+.container-fluid i.fa-utensils {
+  background-color: #ff530e !important;
+  border-bottom: 1px #ffedd4 solid;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.container-fluid a {
+  cursor: unset;
+}
+
+nav .text-muted {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: oklch(0.551 0.027 264.364);
+}
+
+nav img {
+  width: 40px !important;
+  height: 40px !important;
+  border: #ff530e solid 1px;
+}
+
+.viewport {
+  background-color: #fff9ec;
+}
+
+.img-holder {
+  overflow: hidden;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.foodpics {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  height: 90vh;
+  transition:
+    transform 0.45s ease-in-out,
+    filter 0.45s ease-in-out;
+  transform-origin: center center;
+}
+
+.img-holder:hover .foodpics,
+.img-holder:focus-within .foodpics {
+  /* transform: scale(1.08); */
+  filter: saturate(1.08);
+}
+
+div.rate-badge {
+  top: 20px;
+  left: 25px;
+}
+
+.marks i {
+  color: #475161;
+  transition: all ease-in-out 0.05s;
+}
+
+.marks i:hover {
+  color: #f54a00;
+}
+
+.Prep-Cook-Servings {
+  width: 90%;
+  bottom: 4%;
+  left: 5%;
+  right: 5%;
+}
+
+.fa-clock {
+  color: #f54a00;
+}
+
+.headeroflunch i.fa-share-nodes,
+.headeroflunch i.fa-bookmark {
+  color: #ff530e;
+  background: #ffedd4;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.headeroflunch i.fa-share-nodes:hover,
+.headeroflunch i.fa-bookmark:hover {
+  cursor: pointer;
+  background-color: #ffd7a8;
+}
+
+button.nav-link {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.Ingredient-nums {
+  list-style-type: none;
+  background-color: #f54a00;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.Instructions-item {
+}
+.Instructions-nums {
+  list-style-type: none;
+  background-color: #ff6900;
+  border-radius: 12px;
+  width: 48px !important;
+  max-width: 48px !important;
+  height: 48px !important;
+  max-height: 48px !important;
+  font-weight: 800;
+}
+.tip-item i,
+.tip-item span {
+}
+.ul-list {
+  height: 50vh;
+  overflow-y: auto;
+}
+.icon-box {
+  display: flex;
+  width: 40px !important;
+  height: 40px !important;
+  justify-content: center;
+  align-items: center;
+}
+/* glopls boxs */
+.pink-box {
+  background-color: #fce7f3;
+}
+.pink {
+  color: #e60076;
+}
+/* glopls boxs */
+.head-cap-war {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: oklch(0.444 0.177 26.899);
+}
+.lower-cap-war {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: oklch(0.577 0.245 27.325);
+}
+.bg-pink-war {
+  background-color: #fef2f2;
+  /* border-radius: 12px; */
+  border-left: red solid 4px;
+  /* البوردر اتحط من برا ف بالفعل اخد الريديس بتاعه تبع برا  */
+}
+.nutrationsandtips {
+  border-bottom: 1px solid #f8f2e4;
+}
+.padding-100 {
+  padding-bottom: 100px;
+}
+.right-card {
+  max-height: 75vh;
+  overflow-y: auto;
+}
+.mainbutton {
+  transition: all 0.1s ease-in-out;
+  background: linear-gradient(
+    to right,
+    oklch(0.7 0.2 44.12),
+    oklch(63.7% 0.237 25.331)
+  );
+}
+.mainbutton:hover {
+  transform: scale(1.05);
+  background: linear-gradient(
+    to right,
+    oklch(66.764% 0.22353 36.974),
+    oklch(62.826% 0.25721 28.495)
+  );
+}
+/* glopal color for Chef-Tips */
+.oranged {
+  color: #ffb900;
+}
+.dark-orage {
+  color: #e17100;
+}
+.light-orange {
+  color: #fffbeb;
+}
+.bg-oranged {
+  background-color: #ffb900;
+  /* border-radius: 12px; */
+}
+.bg-dark-orage {
+  background-color: #e17100;
+}
+.bg-light-orange {
+  background-color: #fffbeb;
+}
+.bg-light-orange-borderd {
+  border-left: solid 4px #e17100;
+}
+/* glopal color for Chef-Tips */
+
+/* لإلغاء السكرول الأفقي للكارت الأيمن فقط */
+.right-card {
+  overflow-x: hidden;
+}
+
+/* أو لإلغاء السكرول الأفقي على مستوى الصفحة كلها */
+body {
+  overflow-x: hidden;
+}
+.warning-caption {
+  width: 90%;
+}
+.main-war {
+  width: 90%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: oklch(75% 0.15 35/0.3);
+  border-radius: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(75% 0.15 35/0.5);
+}
